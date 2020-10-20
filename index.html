@@ -11,38 +11,66 @@
         <div class="header__info">
             <div class="wrap">
                 <div class="logo">
-                    <a href="">
-                        <img src="/img/logo.png" alt="">
+                    <a class="logo__link" href="#">
+                        <img class="logo__image" src="../img/logo.jpg" alt="">
                     </a>
                 </div>
-                <div class="search__form">
-                    <form action="">
-                        <div>
-                            <input type="text">
-                            <button></button>
+                <div class="header__search">
+                    <form class="search__form" action="" method="">
+                        <div class="search__form-inner">
+                            <input type="text" name="q" value="" maxlength="50" placeholder="Поиск в каталоге и на сайте">
+                            <button class="search__submit"><img class="logo__image" src="../img/search.svg" alt=""></button>
                         </div>
                     </form>
                 </div>
                 <div class="social">
-                    <a href=""><img src="/img/" alt=""></a>
-                    <a href=""><img src="/img/" alt=""></a>
+                    <a class="social__link" href="#"><img src="../img/telegram.svg" alt=""></a>
+                    <a class="social__link" href="#"><img src="../img/whatsapp.svg" alt=""></a>
                 </div>
-                <div class="email">
-                    <a href="mailto:masterfishinfo@mail.ru">masterfishinfo@mail.ru</a>
+                <div class="callback">
+                    <a class="callback__link" href="#">Заказать звонок</a>
                 </div>
                 <div class="phone">
-                    <div class="phone__icon">
-
+                    <div class="phone__icon-wrap">
+                        <img class="phone__icon" src="img/clock.svg" alt="">
                     </div>
                     <div class="phone__wrap">
-                        <a href="tel:+88123633200" class="phone-link">8 812 363 32 00</a>
-                        <a href="tel:+89312009192" class="phone-link">8 931 200 91 92</a>
+                        <a href="tel:+88123633200" class="phone__link">8 812 363 32 00</a>
+                        <a href="tel:+89312009192" class="phone__link">8 931 200 91 92</a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="header__menu">
-
+            <div class="wrap">
+                <div class="header__nav">
+                    <ul class="menu__list">
+                        <li class="menu__item active">
+                            <a href="" class="menu__link">О Компании</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Производство</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Оптовая продажа</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Доставка</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__minicart">
+                    <div class="minicart__wrap">
+                        <a href="#">
+                            <img src="img/cart.png" alt="" />
+                        </a>
+                        <span class="minicart__count">0</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>

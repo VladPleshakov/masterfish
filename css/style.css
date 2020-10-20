@@ -70,3 +70,233 @@ html, body {
     display: flex;
     align-items: center;
 }
+
+.header__info { 
+    background: #60b565;
+    padding: 15px 0;
+}
+
+.header__info .logo {
+    max-width: 193px;
+    width: 100%;
+}
+
+.header__info .logo .logo__image {
+    width: 100%;
+}
+
+.header__search {
+    max-width: 400px;
+    width: 100%;
+    margin-right: 30px;
+}
+
+.search__form-inner {
+    position: relative;
+}
+
+.search__form-inner input {
+    background: #FFFFFF;
+    border: 1px solid transparent;
+    width: 100%;
+    padding: 10px 30px 10px 10px;
+}
+
+.search__form-inner input:focus {
+    outline: 0;
+    border: 1px solid #bf0445;
+}
+
+.search__form-inner .search__submit {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    background: none;
+    border: none;
+    max-width: 30px;
+    cursor: pointer;
+}
+
+.search__form-inner .search__submit img {
+    width: 100%;
+}
+
+.search__form-inner .search__submit:focus {
+    outline: 0;
+}
+
+.social { 
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.social .social__link {
+    max-width: 30px;
+    width: 100%;
+    margin-right: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.social .social__link img {
+    width: 100%;
+}
+
+.social .social__link:last-child {
+    margin-right: 0;
+}
+
+.social .social__link:hover img {
+    transition: 0.3s ease-in-out;
+    filter: invert(65%) sepia(100%) saturate(461%) hue-rotate(330deg) brightness(85%) contrast(103%);
+}
+
+.callback__link {
+    text-decoration: none;
+    background-color: #bf0445;
+    padding: 10px 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.callback__link:hover {
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12), 0px 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.phone__icon-wrap {
+    margin-right: 20px;
+    max-width: 40px;
+    width: 100%;
+}
+
+.phone__icon-wrap img {
+    width: 100%;
+}
+
+.phone__wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.phone__link {
+    font-size: 17px;
+    text-decoration: none;
+    line-height: 23px;
+    color: #000;
+    font-weight: normal;
+    font-family: 'gt_walsheim_proregular', Helvetica, Arial;
+    transition: 0.3s ease-in-out;
+}
+
+.phone__link:hover {
+    color: #ffffff;
+    transition: 0.3s ease-in-out;
+}
+
+.header__menu {
+    background: #000;
+    padding: 15px 0;
+}
+
+.header__menu .wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.minicart__wrap {
+    max-width: 30px;
+    width: 100%;
+    position: relative;
+}
+
+.minicart__wrap a {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    z-index: 1;
+    position: relative;
+}
+
+.minicart__wrap a img {
+    width: 100%;
+}
+
+.minicart__count {
+    position: absolute;
+    display: block;
+    right: 10px;
+    top: -8px;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0 3px;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: #bf0546;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    z-index: 2;
+}
+
+.header__menu .menu__list {
+    display: flex;
+    align-items: center;
+}
+
+.header__menu .menu__list .menu__item {
+    margin-right: 15px;
+}
+
+.header__menu .menu__list .menu__item:last-child {
+    margin-right: 0;
+}
+
+.header__menu .menu__list .menu__link {
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.header__menu .menu__list .menu__item.active .menu__link,
+.header__menu .menu__list .menu__link:hover {
+    transition: 0.3s ease-in-out;
+    color: #bf0445;
+}
+
+@media only screen and (max-width: 1920px) {
+    .wrap { padding: 0 15px; }
+}
+
+@media only screen and (max-width: 1100px) {
+    .header__search { max-width: 350px; }
+}
+
+@media only screen and (max-width: 960px) { 
+
+}
+@media only screen and (max-width: 768px) { 
+
+}
+
+@media only screen and (max-width: 375px) { 
+
+}
